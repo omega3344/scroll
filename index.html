@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reveal on Scroll</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <section class="home">
+        <div class="container">
+            <div class="content"> 
+                <div class="image">
+                  <img src="./assets/gil.jpg" alt="">  
+                </div>  
+                <div class="text">
+                    <h2 class="main-title">Hi, I'm Gil Cunha</h2>
+                    <h2 class="second-title">Data Engineer</h2>
+                    <div class="text-box">
+                        <h4>I consider myself a Data Engineer, however, I'm also keen on Software Engineering, Software Architecture and Business Intelligence areas.</h4>
+                    </div>
+                    <div class="quote">
+                        <p>"Knowledge is power"</p>
+                        <p>Francis Bacon (1597)</p>  
+                    </div>
+                </div>
+            </div>                
+        </div>     
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="content">
+                <div class="image">
+                    <img src="./assets/gil.jpg" alt="">  
+                </div>  
+                <div class="text">
+                    <div class="title">
+                        <h4>Who I am</h4>
+                    </div>
+                    <div class="text-box">
+                        <p>Hello, my name is Gil Cunha and I'm from Guimarães, Portugal.
+                            Having achieved a Master's Degree in Informatics Engineering at the University of Minho, I'm a person who enjoys working in a team and has good communication with his colleagues. I work hard to accomplish my objectives, always trying to give the best quality and efficiency to the projects/products of my company.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education">
+        <div class="container">
+            <div class="content">
+                <div class="image">
+                    <img src="./assets/gil.jpg" alt="">  
+                </div>  
+                <div class="text">
+                    <div class="title">
+                        <h4>Education & Skills</h4>
+                    </div>
+                    <div class="text-box">
+                        <p>Hello, my name is Gil Cunha and I'm from Guimarães, Portugal.
+                            Having achieved a Master's Degree in Informatics Engineering at the University of Minho, I'm a person who enjoys working in a team and has good communication with his colleagues. I work hard to accomplish my objectives, always trying to give the best quality and efficiency to the projects/products of my company.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <div class="content">
+                <div class="image">
+                    <img src="./assets/gil.jpg" alt="">  
+                </div>  
+                <div class="text">
+                    <div class="title">
+                        <h4>Work Experience</h4>
+                    </div>
+                    <div class="text-box">
+                        <p>Hello, my name is Gil Cunha and I'm from Guimarães, Portugal.
+                            Having achieved a Master's Degree in Informatics Engineering at the University of Minho, I'm a person who enjoys working in a team and has good communication with his colleagues. I work hard to accomplish my objectives, always trying to give the best quality and efficiency to the projects/products of my company.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="publications">
+        <div class="container">
+            <div class="content">
+                <div class="image">
+                    <img src="./assets/gil.jpg" alt="">  
+                </div>  
+                <div class="text">
+                    <div class="title">
+                        <h4>Publications, Conferences and Seminars</h4>
+                    </div>
+                    <div class="text-box">
+                        <p>Hello, my name is Gil Cunha and I'm from Guimarães, Portugal.
+                            Having achieved a Master's Degree in Informatics Engineering at the University of Minho, I'm a person who enjoys working in a team and has good communication with his colleagues. I work hard to accomplish my objectives, always trying to give the best quality and efficiency to the projects/products of my company.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="content">
+                <div class="image">
+                    <img src="./assets/gil.jpg" alt="">  
+                </div>  
+                <div class="text">
+                    <div class="title">
+                        <h4>Contact me</h4>
+                    </div>
+                    <div class="text-box">
+                        <p>Hello, my name is Gil Cunha and I'm from Guimarães, Portugal.
+                            Having achieved a Master's Degree in Informatics Engineering at the University of Minho, I'm a person who enjoys working in a team and has good communication with his colleagues. I work hard to accomplish my objectives, always trying to give the best quality and efficiency to the projects/products of my company.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <script>
+        ScrollReveal({
+            //reset: true,
+            distance: "60px",
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.main-title, .second-title', { delay: 500, origin: "top" });
+        ScrollReveal().reveal('.home .image', { delay: 600, origin: "bottom" })
+        ScrollReveal().reveal('.text-box, .quote', { delay: 700, origin: "right" })
+        //ScrollReveal().reveal('.media-icons i', { delay: 500, origin: "bottom", interval: 200 })
+
+
+    </script>
+
+    <script src="index.js"></script>
+</body>
+</html>
